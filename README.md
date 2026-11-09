@@ -5,7 +5,9 @@ Welcome to my practical GRC (Governance, Risk, Compliance) and IT Audit portfoli
 ## 📂 Portfolio Structure & Assets
 
 ### 🔹 1. Database Auditing & SQL Analysis
-* [📂 SecureShop.sql](./SecureShop.sql) : Audit-focused SQL queries (JOIN operations, access control checks, data verification) and screenshot verifications (IMG_0517 - IMG_0531).
+* [📂 SQL-LABs](./SQL-LABs) : Contains my main audit-focused SQL queries, JOIN operations, and access control verification scripts.
+* [🗄️ SecureShop.sql](./SecureShop.sql) : The core database structure and dataset used as the testing environment for the audit labs.
+* [📸 Audit_Evidence_Screenshots.pdf](./Audit_Evidence_Screenshots.pdf) : All query outputs, `SELECT` results, and unauthorized access log verifications compiled into a single document.
 * *Skills Demonstrated:* Auditing database privileges, tracking unauthorized access, and ensuring data integrity.
 
 ### 🔹 2. Risk Assessment & Governance (ISO 31000 / ISO 27001)
@@ -19,4 +21,5 @@ Welcome to my practical GRC (Governance, Risk, Compliance) and IT Audit portfoli
 ## 📧 Contact
 * **LinkedIn:** [Rovshan Rahimov](https://linkedin.com)
 * **Email:** [rovsen.rehimov015@gmail.com](mailto:rovsen.rehimov015@gmail.com)
+
 
