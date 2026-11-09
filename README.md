@@ -1,24 +1,21 @@
 # GRC & IT Audit Portfolio | Rövşən Rəhimov
 
-Welcome to my practical GRC (Governance, Risk, Compliance) and IT Audit portfolio featuring database auditing queries, ISO-compliant risk models, and practical IT control evaluations.
+Governance, Risk, Compliance (GRC) və IT Audit üzrə praktiki portfoliomuz (SQL sorğuları, ISO risk modelləri və IT nəzarət qiymətləndirmələri).
 
-## 📂 Portfolio Structure & Assets
+## 📂 Portfolio Strukturu
 
 ### 🔹 1. Database Auditing & SQL Analysis
-* 📂 SQL-LABs: https://github.com
-* 🗄️ SecureShop.sql: https://github.com
-* 📸 Audit_Evidence_Screenshots.pdf: https://github.com
-* *Skills Demonstrated:* Auditing database privileges, tracking unauthorized access, and ensuring data integrity.
+* **SQL-LABs (Queries):** [SQL-LABs qovluğu](https://github.com)
+* **SecureShop.sql (Database):** [SecureShop.sql faylı](https://github.com)
+* **Audit_Evidence_Screenshots.pdf:** [Skrinşotlar PDF](https://github.com)
 
 ### 🔹 2. Risk Assessment & Governance (ISO 31000 / ISO 27001)
-* 📊 Risk_Register_Numune.xlsx: https://github.com
-* *Skills Demonstrated:* Risk identification, scoring, and mitigation design.
+* **Risk_Register_Numune.xlsx:** [Risk Register Excel](https://github.com)
 
-## 🛠 Tools & Standards Used
-* **Standards:** ISO/IEC 27001, ISO 31000, COBIT, ITIL
-* **Technical Skills:** SQL (MySQL), Database Auditing, Risk Assessment & Matrix Design, IT Control Testing
+## 🛠 Alətlər və Standartlar
+* **Standartlar:** ISO/IEC 27001, ISO 31000, COBIT, ITIL
+* **Bacarıqlar:** SQL (MySQL), Database Auditing, Risk Assessment, IT Control Testing
 
-## 📧 Contact
-* **LinkedIn:** https://linkedin.com
+## 📧 Əlaqə
+* **LinkedIn:** [Rövşən Rəhimov](https://linkedin.com)
 * **Email:** rovsen.rehimov015@gmail.com
-
