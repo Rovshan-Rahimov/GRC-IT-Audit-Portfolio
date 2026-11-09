@@ -4,7 +4,7 @@ Welcome to my GRC (Governance, Risk, Compliance) and IT Audit portfolio.
 
 ## 📂 Portfolio Structure
 
-* **Database Auditing & SQL:** Includes [SQL-LABs](./SQL-LABs) query scripts, the [SecureShop.sql](./SecureShop.sql) dataset, and [Audit_Evidence_Screenshots.pdf](./Audit_Evidence_Screenshots.pdf?raw=true) verifying access controls.
+* **Database Auditing & SQL:** Includes [SQL-LABs](./SQL-LABs) query scripts, the [SecureShop.sql](./SecureShop.sql) dataset, and [Audit_Evidence_Screenshots.pdf](https://google.com) verifying access controls.
 * **Risk Assessment:** Features [Risk_Register_Numune.xlsx](./Risk_Register_Numune.xlsx) based on ISO 31000 / ISO 27001 standards.
 
 ## 🛠 Tools & Standards
@@ -12,5 +12,3 @@ Welcome to my GRC (Governance, Risk, Compliance) and IT Audit portfolio.
 
 ## 📧 Contact
 * [LinkedIn](https://linkedin.com) | [Email](mailto:rovsen.rehimov015@gmail.com)
-
-
