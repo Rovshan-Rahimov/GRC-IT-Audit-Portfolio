@@ -1,13 +1,23 @@
 # GRC & IT Audit Portfolio | Rövşən Rəhimov
 
-Bu repozitoriya mənim GRC (Governance, Risk, Compliance) və İT Audit sahəsində apardığım praktiki laboratoriya işlərini, verilənlər bazası analizlərini və risk qiymətləndirmə modellərimi əhatə edir.
-
-## 📂 Portfoliyaya daxildir:
-1. **SQL & Database Auditing Labs:** 
-   - MySQL mühitində tətbiq edilən sorğular (`SecureShop.sql`), audit loglarının analizi və praktiki sübutların toplanması.
-2. **Risk Assessment Model:** 
-   - ISO 31000 və ISO 27001 standartlarına uyğun olaraq hazırlanmış ehtimal və təsir matrisi üzərindən risklərin qiymətləndirilməsi modeli (Risk Register).
-
+Welcome to my practical GRC (Governance, Risk, Compliance) and IT Audit portfolio. This repository serves as hands-on evidence of database auditing queries, ISO-compliant risk models, and practical IT control evaluations.
 
 ---
-*Əlaqə üçün [LinkedIn profilimə](https://www.linkedin.com/in/rovshan-rahimov-6663a4418?utm_source=share_via&utm_content=profile&utm_medium=member_ios) baxa bilərsiniz.*
+
+## 📂 Portfolio Structure & Assets
+
+### 🔹 1. Database Auditing & SQL Analysis
+- **`SQL-LABs` / `SecureShop.sql`**: Contains audit-focused SQL queries (JOIN operations, access control checks, and data verification) applied to practical database scenarios.
+- **Audit Evidence**: Screenshot verification of executed queries and log extraction.
+
+### 🔹 2. Risk Assessment & Governance (ISO 31000 / ISO 27001)
+- **Risk Register**: An automated risk assessment matrix evaluating Likelihood vs. Impact, calculating residual risks, and setting control recommendations aligned with ISO 27001 standards.
+
+---
+
+## 🛠️ Tools & Standards Used
+- **Standards:** ISO/IEC 27001, ISO 31000, COBIT
+- **Technical Skills:** SQL (MySQL), Database Auditing, Risk Assessment & Matrix Design, IT Control Testing
+
+---
+📧 **Contact:** Feel free to connect via [LinkedIn](https://www.linkedin.com/in/rovshan-rahimov-6663a4418?utm_source=share_via&utm_content=profile&utm_medium=member_ios) or reach out for discussions on GRC & IT Audit methodologies.
