@@ -1,0 +1,67 @@
+SELECT * FROM payment_details;
+---
+SELECT * FROM customers;
+---
+SELECT * FROM products;
+---
+SELECT orders.order_id, orders.order_date, orders.total_amount 
+FROM orders 
+JOIN customers ON orders.customer_id = customers.customer_id 
+WHERE customers.first_name = 'David';
+---
+SELECT 
+    customer_id, 
+    first_name, 
+    last_name, 
+    HEX(AES_ENCRYPT(phone, 'my_secret_key')) AS encrypted_phone 
+FROM customers;
+---
+SELECT 
+    customer_id, 
+    phone AS original_phone,
+    CAST(AES_DECRYPT(AES_ENCRYPT(phone, 'my_secret_key'), 'my_secret_key') AS CHAR) AS decrypted_phone
+FROM customers;
+---
+SELECT 
+    customer_id, 
+    first_name, 
+    last_name, 
+    postal_code AS original_postal_code,
+    CONCAT(REPEAT('*', LENGTH(postal_code) - 2), RIGHT(postal_code, 2)) AS masked_postal_code
+FROM customers;
+---
+CREATE USER 'delivery_executive'@'localhost' IDENTIFIED BY 'Delivery@Pass2026';
+---
+GRANT SELECT, UPDATE, DELETE ON `secureshop.sql`.customers TO 'delivery_executive'@'localhost';
+FLUSH PRIVILEGES;
+---
+SHOW GRANTS FOR 'delivery_executive'@'localhost';
+---
+REVOKE DELETE ON `secureshop.sql`.customers FROM 'delivery_executive'@'localhost';
+FLUSH PRIVILEGES;
+---
+SHOW GRANTS FOR 'delivery_executive'@'localhost';
+---
+SELECT 
+    o.order_id, 
+    o.order_date, 
+    o.total_amount, 
+    c.customer_id, 
+    c.first_name, 
+    c.last_name, 
+    c.email 
+FROM orders o
+JOIN customers c ON o.customer_id = c.customer_id
+WHERE o.order_id = 7;
+---
+SELECT 
+    o.order_id, 
+    o.order_date, 
+    o.total_amount, 
+    c.customer_id, 
+    c.first_name, 
+    c.last_name, 
+    c.email 
+FROM orders o
+JOIN customers c ON o.customer_id = c.customer_id
+WHERE o.order_id = 7 OR 1=1;
